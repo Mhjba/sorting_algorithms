@@ -13,7 +13,7 @@ void shell_sort(int *array, size_t size)
 
 	if (array == NULL || size < 2)
 		return;
-	Knuth = 0;
+	Knuth = 1;
 	while (Knuth < size / 3)
 		Knuth = Knuth * 3 + 1;
 
