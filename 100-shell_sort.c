@@ -8,8 +8,8 @@
  */
 void shell_sort(int *array, size_t size)
 {
-	size_t Knuth, i, tmp;
 	int swap;
+	size_t Knuth, i, tmp;
 
 	if (array == NULL || size < 2)
 		return;
@@ -30,4 +30,3 @@ void shell_sort(int *array, size_t size)
 		Knuth = (Knuth - 1) / 3;
 	}
 }
-
