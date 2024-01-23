@@ -27,7 +27,7 @@ void shell_sort(int *array, size_t size)
 			array[tmp] = swap;
 		}
 		print_array(array, size);
-		Knuth /= 3;
+		Knuth = (Knuth - 1) / 3;
 	}
 }
 
